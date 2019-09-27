@@ -15,7 +15,7 @@
 		649AB39321BE29A00067DEA9 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 649AB39221BE29A00067DEA9 /* NotificationCenter.framework */; };
 		649AB39621BE29A00067DEA9 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649AB39521BE29A00067DEA9 /* TodayViewController.swift */; };
 		649AB39921BE29A00067DEA9 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 649AB39721BE29A00067DEA9 /* MainInterface.storyboard */; };
-		649AB39D21BE29A00067DEA9 /* Hello World Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 649AB39021BE29A00067DEA9 /* Hello World Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		649AB39D21BE29A00067DEA9 /* Приветмир Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 649AB39021BE29A00067DEA9 /* Приветмир Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +35,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				649AB39D21BE29A00067DEA9 /* Hello World Extension.appex in Embed App Extensions */,
+				649AB39D21BE29A00067DEA9 /* Приветмир Extension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -50,7 +50,7 @@
 		64935BDA1F02DA2C006FEC38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		64935BDD1F02DA2C006FEC38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		64935BDF1F02DA2C006FEC38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		649AB39021BE29A00067DEA9 /* Hello World Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Hello World Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		649AB39021BE29A00067DEA9 /* Приветмир Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Приветмир Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		649AB39221BE29A00067DEA9 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
 		649AB39521BE29A00067DEA9 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
 		649AB39821BE29A00067DEA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
@@ -80,7 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				64935BD21F02DA2C006FEC38 /* Приветмир */,
-				649AB39421BE29A00067DEA9 /* Hello World Extension */,
+				649AB39421BE29A00067DEA9 /* Приветмир Extension */,
 				649AB39121BE29A00067DEA9 /* Frameworks */,
 				64935BD11F02DA2C006FEC38 /* Products */,
 			);
@@ -90,7 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				64935BD01F02DA2C006FEC38 /* Приветмир.app */,
-				649AB39021BE29A00067DEA9 /* Hello World Extension.appex */,
+				649AB39021BE29A00067DEA9 /* Приветмир Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -116,14 +116,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		649AB39421BE29A00067DEA9 /* Hello World Extension */ = {
+		649AB39421BE29A00067DEA9 /* Приветмир Extension */ = {
 			isa = PBXGroup;
 			children = (
 				649AB39521BE29A00067DEA9 /* TodayViewController.swift */,
 				649AB39721BE29A00067DEA9 /* MainInterface.storyboard */,
 				649AB39A21BE29A00067DEA9 /* Info.plist */,
 			);
-			path = "Hello World Extension";
+			path = "Приветмир Extension";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,7 +162,7 @@
 			);
 			name = "Hello World Extension";
 			productName = "Hello World Extension";
-			productReference = 649AB39021BE29A00067DEA9 /* Hello World Extension.appex */;
+			productReference = 649AB39021BE29A00067DEA9 /* Приветмир Extension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
@@ -384,7 +384,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = HelloWorld/Info.plist;
+				INFOPLIST_FILE = "Приветмир/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -405,7 +405,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = HelloWorld/Info.plist;
+				INFOPLIST_FILE = "Приветмир/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -436,7 +436,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = "Hello World Extension/Info.plist";
+				INFOPLIST_FILE = "Приветмир Extension/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -446,7 +446,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dpan.testapp.Hello-World-Extension";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Приветмир Extension";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -471,7 +471,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = "Hello World Extension/Info.plist";
+				INFOPLIST_FILE = "Приветмир Extension/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -480,7 +480,7 @@
 				);
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dpan.testapp.Hello-World-Extension";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Приветмир Extension";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
