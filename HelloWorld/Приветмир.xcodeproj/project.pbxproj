@@ -79,7 +79,7 @@
 		64935BC71F02DA2C006FEC38 = {
 			isa = PBXGroup;
 			children = (
-				64935BD21F02DA2C006FEC38 /* HelloWorld */,
+				64935BD21F02DA2C006FEC38 /* Приветмир */,
 				649AB39421BE29A00067DEA9 /* Hello World Extension */,
 				649AB39121BE29A00067DEA9 /* Frameworks */,
 				64935BD11F02DA2C006FEC38 /* Products */,
@@ -95,7 +95,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		64935BD21F02DA2C006FEC38 /* HelloWorld */ = {
+		64935BD21F02DA2C006FEC38 /* Приветмир */ = {
 			isa = PBXGroup;
 			children = (
 				64935BD31F02DA2C006FEC38 /* AppDelegate.swift */,
@@ -105,7 +105,7 @@
 				64935BDC1F02DA2C006FEC38 /* LaunchScreen.storyboard */,
 				64935BDF1F02DA2C006FEC38 /* Info.plist */,
 			);
-			path = HelloWorld;
+			path = "Приветмир";
 			sourceTree = "<group>";
 		};
 		649AB39121BE29A00067DEA9 /* Frameworks */ = {
